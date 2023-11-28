@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="stonksproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/adobespark"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/adobespark"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StonksProject">
+        <activity android:name=".SuccessActivity"></activity>
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".UserProfilePage" />
+        <activity android:name=".IndividiualStockPricesPage" />
+        <activity android:name=".EnterHoldingsPage" />
+        <activity android:name=".PortfolioTracker" />
+        <activity android:name=".StockNews" />
+        <activity android:name=".StockPrices" />
+        <activity android:name=".RegistrationPage" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

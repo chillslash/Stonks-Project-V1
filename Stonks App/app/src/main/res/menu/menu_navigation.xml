@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app= "http://schemas.android.com/apk/res-auto"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/stocks"
+        android:title="Stocks"
+        android:icon="@drawable/stock_black"/>
+
+
+    <item
+        android:id="@+id/home"
+        android:title="News"
+
+        android:icon="@drawable/news_black"/>
+
+    <item
+        android:id="@+id/portfolio"
+        android:title="Portfolio"
+        android:icon="@drawable/portfolio_black"/>
+
+</menu>
