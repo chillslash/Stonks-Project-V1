@@ -1,4 +1,4 @@
-# Stonks-App-V1
+# Stonks-Project-V1
 
 App that allows users to view Individual Stock Performance, Trading News, and a Portfolio Tracker<br />
 
